@@ -14,11 +14,11 @@ img {
 .button2,
 .button4,
 .button5 {
-  width: 15px;
-  height: 3rem;
-
+  width: 25px;
+  height: 4rem;
   flex-grow: 1;
   max-width: 150px;
+  justify-content: center;
 }
 
 .bar div {
@@ -26,13 +26,15 @@ img {
   border-radius: 96px;
   align-items: center;
   display: flex;
+  font-family: "Outfit", sans-serif;
 }
 
 .button3 {
-  flex-grow: 2;
+  flex-grow: 4;
   max-width: 200px;
   justify-content: center;
-  gap: 5rem;
+  gap: 4rem;
   padding: 1rem;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
