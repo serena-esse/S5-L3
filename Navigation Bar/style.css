@@ -1,0 +1,38 @@
+.bar {
+  background-color: #fbf7e3;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  border-radius: 96px;
+  align-items: center;
+}
+img {
+  width: 4rem;
+}
+
+.button1,
+.button2,
+.button4,
+.button5 {
+  width: 15px;
+  height: 3rem;
+
+  flex-grow: 1;
+  max-width: 150px;
+}
+
+.bar div {
+  background-color: #f3df85;
+  border-radius: 96px;
+  align-items: center;
+  display: flex;
+}
+
+.button3 {
+  flex-grow: 2;
+  max-width: 200px;
+  justify-content: center;
+  gap: 5rem;
+  padding: 1rem;
+  font-size: 20px;
+}
